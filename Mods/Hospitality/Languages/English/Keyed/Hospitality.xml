@@ -39,13 +39,15 @@
 
   <!-- Tab -->
   <ConvincingLeft>Convincing required</ConvincingLeft>
-  <Trust>Trust in colonists</Trust>
+  <RecruitmentChance>Recruitment chance</RecruitmentChance>
   <RecruitmentPenalty>Relationship damage when recruited</RecruitmentPenalty>
-  <ImproveRelationship>Try to improve faction relationship</ImproveRelationship>
+  <ImproveRelationship>Try to entertain</ImproveRelationship>
   <LeaveAlone>Leave alone</LeaveAlone>
   <FactionGoodwill>Faction goodwill</FactionGoodwill>
   <Hospitality>Hospitality</Hospitality>
   <SetDefault>Set Default</SetDefault>
+  <TrustTooLow>NAME does not know or like your colonists enough.</TrustTooLow>
+  <IsATrader>NAME is part of a trading caravan and not a guest.</IsATrader>
 
   <!-- Infos -->
   <StatsReport_FinalAdjustment>Adjustment</StatsReport_FinalAdjustment>
@@ -54,7 +56,11 @@
   <ForGuestUse>For Guest Use</ForGuestUse>
   
   <!-- Rescue -->
-  <RescuedInitial>The {0} named NAME that you rescued is very grateful for HIS rescue and would like to stay at your colony.\n\nHECAP is {1}.</RescuedInitial>
+  <RescuedInitial>The {0} named NAME that you rescued is very grateful for HIS rescue and would like to stay at your colony.\n\nHIS traits are: {1}.</RescuedInitial>
   <RescuedInitial_Accept>Accept HIM</RescuedInitial_Accept>
   <RescuedInitial_Reject>Send HIM away</RescuedInitial_Reject>
+  
+  <!-- Wanderer -->
+  <WandererInitial>NAME from {0} was wandering nearby and noticed you could use some help. HECAP would like to join your colony for a while.\n\nHECAP is a {1} and HIS traits are {2}.</WandererInitial>
+
 </LanguageData>

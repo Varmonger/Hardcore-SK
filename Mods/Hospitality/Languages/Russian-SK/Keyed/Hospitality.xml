@@ -39,14 +39,16 @@
   
   <!-- Tab -->
   <ConvincingLeft>Требуется убеждение</ConvincingLeft>
-  <Trust>Доверие поселенцев</Trust>
+  <RecruitmentChance>Recruitment chance</RecruitmentChance>
   <RecruitmentPenalty>Ухудшение отношений от вербовки</RecruitmentPenalty>
   <ImproveRelationship>Попытаться улучшить отношения</ImproveRelationship>
   <LeaveAlone>Оставить в покое</LeaveAlone>
   <FactionGoodwill>Текущие отношения с фракцией</FactionGoodwill>
   <Hospitality>Довольство от гостеприимства</Hospitality>
   <SetDefault>Фракция</SetDefault>
-  
+  <TrustTooLow>NAME does not know or like your colonists enough.</TrustTooLow>
+  <IsATrader>NAME is part of a trading caravan and not a guest.</IsATrader>
+
   <!-- Infos -->
   <StatsReport_FinalAdjustment>Исправить</StatsReport_FinalAdjustment>
 
@@ -57,4 +59,8 @@
   <RescuedInitial>Фракция {0} очень благодарна за спасение NAME и HE очень хочет остаться у Вас.\n\nHECAP - {1}.</RescuedInitial>
   <RescuedInitial_Accept>Принять HIS</RescuedInitial_Accept>
   <RescuedInitial_Reject>Отослать HIS обратно</RescuedInitial_Reject>
+  
+  <!-- Wanderer -->
+  <WandererInitial>NAME from {0} was wandering nearby and noticed you could use some help. HECAP would like to join your colony for a while.\n\nHECAP is a {1} and HIS traits are {2}.</WandererInitial>
+  
 </LanguageData>
